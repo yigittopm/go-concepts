@@ -17,7 +17,7 @@ func TestMain(m *testing.M) {
 	fmt.Println("un-buffered writes: ", unbufferedWrites)
 }
 
-func BenchmarkUnbefferedChannel(b *testing.B) {
+func BenchmarkUnbufferedChannel(b *testing.B) {
 	b.ReportAllocs()
 
 	done := make(chan any)
