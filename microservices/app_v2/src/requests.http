@@ -1,0 +1,7 @@
+GET http://localhost:8081/metadata/id=1
+
+###
+PUT http://localhost:8081/metadata
+{
+   "id":"1"
+}
