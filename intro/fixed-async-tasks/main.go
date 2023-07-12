@@ -25,6 +25,5 @@ func main() {
 func generateTask(done chan struct{}, text string, t time.Duration) {
 	time.Sleep(t * time.Millisecond)
 	fmt.Println(text)
-
 	done <- struct{}{}
 }
